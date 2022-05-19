@@ -1,0 +1,17 @@
+roles:
+  - webserver
+  - database
+
+# jeito errado
+# - payload
+#   -bitcoin
+#   -
+#   -ethereum
+
+# bloco
+payload1:
+  - bitcoin
+  - ethereum
+
+# floo
+payload2: [ bitcoin, ethereum ]
