@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6c84000n*5423ov#u9h6f@&+%1ph4rxi(t1!83z+1u@(%2hh!6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'fusion_app',
         'USER': 'fusion_user',
         'PASSWORD': 'fusion_pass',
-        'HOST': '172.17.0.2',
+        'HOST': 'pgfusion',
         'PORT': '5432',
     }
 }
